@@ -1,4 +1,3 @@
-# hare-projects
+# Learn
 
-A simple repository used solely for my own testing of the Hare language. Nothing
-of importance here.
+A repository to store various test files used to learn aspects of programming languages, techniques, etc.
