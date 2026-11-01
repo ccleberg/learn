@@ -24,7 +24,7 @@ int main() {
         if(fgets(line, sizeof line, stdin) != NULL)
         {
             // Convert user input to an integer
-            int user_input = atoi(line);
+            int user_input = (int)strtol(line, NULL, 10);
 
             // Do the main comparison to determine if the guess is correct
             if (user_input == random_number) {

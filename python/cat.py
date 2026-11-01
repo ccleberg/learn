@@ -7,7 +7,7 @@ args = parser.parse_args()
 
 # Open the file using the `file` argument
 path = args.file
-with open(path, 'r') as file:
+with open(path, 'r', encoding='utf-8') as file:
         # Read and print the file contents
         contents = file.read()
         print(contents)
